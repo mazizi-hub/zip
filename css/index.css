@@ -83,9 +83,25 @@ color: red;
   grid-template-columns: auto auto;
 }
 .Portfolio{
-  float: right;
+  float: left;
+  text-transform: capitalize;
+  font-size: 20px;
 }
 .home{
   float: left;
-  padding: 80px;
+  padding: 50px;
+
+}
+.Portfolio button{
+  background-color: white;
+  color: red;
+  font-weight: bold;
+}
+.grid-item span{
+background-color: white;
+color:red;
+}
+.Portfolio span{
+  background-color: white;
+  color:red;
 }
