@@ -3,19 +3,29 @@ html, body {
   padding: 0;
   margin:0;
 }
- .navbar{
-  background: url("../images/lapdawg.jpg");
+.logo-container {
+float: left;
+color: white;
+border-radius: 0 0 20px 20px;
+background: red;
+margin-left: 200px;
+height: 60px;
+}
+ .navbar {
+  background: url("../images/xhwita.webp");
   background-size:cover;
   background-position: 0;
   height:650px;
+  background-color: #919191;
 }
-.icons-container{
-text-align: right;
-
+.icons-container {
+float: right;
+align-content:space-around;
 }
 .navbar-container{
-  float: right;
-  display:inline-block;
+  float: /* REVIEW:  */;
+  display: inline-block;
+  text-align: right;
 }
 ul li{
   display:inline;
@@ -26,14 +36,15 @@ ul li{
 }
 ul li a{
   text-decoration: none;
+  margin-left: 100px;
   color: #34495E;
 }
 .agency span{
   color: red;
 }
 .agency{
-text-align:center;
-padding: 10px;
+  text-align: justify;
+  padding: 100px;
 }
   .button {
     border-color:red;
@@ -63,8 +74,6 @@ padding: 10px;
 .grid-item button{
 background-color: white;
 color: red;
-
-
 }
 .contents h1{
   margin-right: 20px;
@@ -87,10 +96,9 @@ color: red;
   text-transform: capitalize;
   font-size: 20px;
 }
-.home{
+.home {
   float: left;
   padding: 50px;
-
 }
 .Portfolio button{
   background-color: white;
