@@ -8,43 +8,47 @@ float: left;
 color: white;
 border-radius: 0 0 20px 20px;
 background: red;
-margin-left: 200px;
 height: 60px;
 }
  .navbar {
-  background: url("../images/xhwita.webp");
+border:  1px solid transparent;
+  width: 80%;
+  margin: 0 auto;
+}
+header{
+  background: url("../images/nxilaa.jpg");
   background-size:cover;
   background-position: 0;
   height:650px;
   background-color: #919191;
+
 }
-.icons-container {
-float: right;
-align-content:space-around;
-}
-.navbar-container{
-  float: /* REVIEW:  */;
+.navbar-container {
   display: inline-block;
-  text-align: right;
+  float: right;
+
 }
-ul li{
-  display:inline;
-  padding: 10px;
+ul li {
+  display: inline-block;
+margin: 12px;
   text-transform: capitalize;
   font-weight: bold;
-  margin-top: auto;
+  margin-top: -30px;
+
 }
-ul li a{
+ul li a {
   text-decoration: none;
-  margin-left: 100px;
   color: #34495E;
 }
-.agency span{
+
+.agency span {
   color: red;
 }
 .agency{
-  text-align: justify;
-  padding: 100px;
+  text-align: left;
+  padding: 50px;
+  margin-top: 100px;
+  margin-left: -50px;
 }
   .button {
     border-color:red;
@@ -55,14 +59,14 @@ ul li a{
   justify-content: center;
   grid-template-columns: auto auto auto;
 }
-.grid-item{
+.grid-item {
  padding: 20px;
   font-size: 20px;
   text-align: center;
   height: 300px;
  text-transform: capitalize;
 }
-.agency h1{
+.agency h1 {
 }
 .agency button{
   background: red;
@@ -71,45 +75,49 @@ ul li a{
   width: 10%;
   font-weight: bold;
 }
-.grid-item button{
+.grid-item button {
 background-color: white;
 color: red;
 }
-.contents h1{
+.contents h1 {
   margin-right: 20px;
   padding-left: 30px;
 }
 .navbar-container a:hover {
   color:red;
 }
-.home img{
+.home img {
   height: 300px;
 }
-#port{
+#port {
   display: grid;
   margin-top: 100px;
   justify-content: center;
   grid-template-columns: auto auto;
 }
-.Portfolio{
+.Portfolio {
   float: left;
   text-transform: capitalize;
   font-size: 20px;
+  padding-left: -200px;
+  margin-left: -200px;
+  margin-top: -30px;
 }
 .home {
   float: left;
-  padding: 50px;
+  padding-right: 300px;
+  display: inline-block;
 }
-.Portfolio button{
+.Portfolio button {
   background-color: white;
   color: red;
   font-weight: bold;
 }
-.grid-item span{
+.grid-item span {
 background-color: white;
 color:red;
 }
-.Portfolio span{
+.Portfolio span {
   background-color: white;
   color:red;
 }
